@@ -57,7 +57,7 @@ export const Navbar = () => {
 				<NavbarBrand className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
 						<Logo />
-						<p className="font-bold text-inherit">ACME</p>
+						<p className="font-bold text-inherit">Agile5</p>
 					</NextLink>
 				</NavbarBrand>
 				<div className="hidden lg:flex gap-4 justify-start ml-2">
@@ -83,7 +83,7 @@ export const Navbar = () => {
 					<Link isExternal href={siteConfig.links.twitter}>
 						<TwitterIcon className="text-default-500" />
 					</Link>
-					<Link isExternal href={siteConfig.links.discord}>
+					<Link isExternal href={siteConfig.links.github}>
 						<DiscordIcon className="text-default-500" />
 					</Link>
 					<Link isExternal href={siteConfig.links.github}>
@@ -97,7 +97,7 @@ export const Navbar = () => {
 						isExternal
 						as={Link}
 						className="text-sm font-normal text-default-600 bg-default-100"
-						href={siteConfig.links.sponsor}
+						href={siteConfig.links.chess}
 						startContent={<HeartFilledIcon className="text-danger" />}
 						variant="flat"
 					>
